@@ -1,0 +1,178 @@
+/*styles.css*/
+身体{
+     字体系列:'宋体',无衬线;
+     边缘:0;
+     填充:0;
+背景色：#f4f4f4；
+}
+
+页眉{
+     背景色: #333;
+颜色：#FFF；
+填充:10PX0;
+     文本对齐:中心;
+}
+
+#search{
+     填充:10PX;
+     右边距:10PX;
+}
+
+按钮{
+     填充:10PX;
+}
+
+产品数量{
+     填充:20PX;
+}
+
+.product{
+背景色：#FFF；
+底边距:20PX;
+填充:20PX;
+边界半径:5PX;
+箱形阴影:0 2PX4pxRGBA(0,0,0,0.1);
+}
+
+.产品h3{
+     上边距:0;
+}
+
+.product按钮{
+背景色：#4CAF50；/*绿色*/
+边境:没有一个;
+颜色:白色的;
+填充:10PX20px；
+文本对齐:中心;
+文字装饰:没有一个;
+显示:内联块;
+字体大小:16PX;
+边缘:4PX2px；
+光标:指针;
+边界半径:4PX;
+}
+
+.product按钮：盘旋{
+背景色：#45a049；
+}
+/* 添加欢迎窗口样式 */
+.modal{
+     显示:没有一个;/* 默认隐藏 */
+     位置:确定的;/* 固定定位 */
+     Z指数:1;/* 置于顶层 */
+     左:0;
+     顶端:0;
+     宽度:100%;/* 宽度100% */
+     高度:100%;/* 高度100% */
+     溢出:自动;/* 启用滚动条 */
+     背景色:RGB(0,0,0);/* 背景颜色 */
+     背景色:RGBA(0,0,0,0.4);/* 背景颜色，带有透明度 */
+}
+
+.modal-content {
+     background-color: #fefefe;
+     margin: 15% auto; /* 15% 从顶部和自动水平 */
+     padding: 20px;
+     border: 1px solid #888;
+     width: 80%; /* 宽度80% */
+}
+
+.close {
+     color: #aaa;
+     float: right;
+     font-size: 28px;
+     font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+     color: black;
+     text-decoration: none;
+     cursor: pointer;
+}
+body {
+     font-family: 'Arial', sans-serif;
+     margin: 0;
+     padding: 0;
+     background-image: url('IMG_20240817_104242.jpg'); /* 设置背景图片 */
+     background-size: cover; /* 覆盖整个页面 */
+     background-position: center; /* 图片居中显示 */
+     background-repeat: no-repeat; /* 不重复背景图片 */
+     background-attachment: fixed; /* 背景图片固定 */
+}
+.product-box {
+   background-color: #f0f0f0; /* 
+   设置背景颜色 */
+    border: 1px solid #ccc; /* 设置边框 */
+     padding: 10px; /* 设置内边距 */
+      /* 其他样式 */ 
+     }
+/* 添加菜单栏样式 */
+#menu-button {
+     position: fixed;
+     top: 10px;
+     left: 10px;
+     z-index: 1000;
+     font-size: 30px;
+     cursor: pointer;
+}
+
+#menu-content {
+     position: fixed;
+     top: 0;
+     left: 0;
+     width: 250px;
+     height: 100%;
+     background-color: #fff;
+     box-shadow: 2px 0 10px rgba(0, 0, 0, 0.3);
+     padding: 20px;
+     transform: translateX(-100%);
+     transition: transform 0.3s ease-in-out;
+
+}
+
+#menu-content.active {
+     transform: translateX(0);
+}
+
+#menu-content button {
+     display: block;
+     width: 100%;
+     margin-bottom: 10px;
+}
+/* 添加悬浮窗样式 */
+#author-info, #review-info, #agent-info {
+    display: none;
+    position: fixed;
+    right: 10px;
+    background-color: #fff;
+    padding: 10px;
+    border: 1px solid #ddd;
+    z-index: 1001;
+}
+/* 添加悬浮窗样式 */
+#login-info {
+    display: none;
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    background-color: #fff;
+    padding: 10px;
+    border: 1px solid #ddd;
+    z-index: 1001;
+}
+.loading {
+  text-align: center;
+  color: white;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url("52495084084201630871723862269417.jpg") no-repeat center center fixed;
+background-size: cover; /* 覆盖整个页面 */
+     background-position: center; /* 图片居中显示 */
+     background-repeat: no-repeat; /* 不重复背景图片 */
+  background-attachment: fixed; /* 背景图片固定 */
+  background-size: cover;
+}
